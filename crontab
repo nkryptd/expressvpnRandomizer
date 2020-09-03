@@ -1,1 +1,1 @@
-*/10 * * * * /bin/sh /home/user/Documents/dev/linux/scripts/expressVpnRandomizer.sh
+*/10 * * * * /bin/sh /replace/with/path/to/expressVpnRandomizer.sh
