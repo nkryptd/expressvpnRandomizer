@@ -20,19 +20,24 @@ This mini-program is a script and a crontab command that interacts with the expr
 # Installation
 (assuming correct installation of the express app for linux)
 
-1.) expressvpn disconnect && expressvpn preferences set network_lock strict && expressvpn autoconnect && expressvpn preferences set desktop_notifications true && expressvpn connect && expressvpn preferences
+1.) Assumes you're already connected to expressvpn; ensure that the returned text shows that auto_connect, network_lock, and desktop_notifications are set to on
     
-    #assumes you're connected to express already, ensure that the returned text shows auto_connect, network_lock, and desktop_notifications are set to on
-
-2.) chmod 700 /path/to/expressVpnRandomizer.sh
-
-3.) ./path/to/expressVpnRandomizer.sh   
+    # expressvpn disconnect && expressvpn preferences set network_lock strict && expressvpn autoconnect && expressvpn preferences set desktop_notifications true && expressvpn connect && expressvpn preferences
     
-    #test the script once your system so you can see any errors, before running the crontab
+
+2.) Change the file permissions so that you are able to execute it
+
+    # chmod 700 /path/to/expressVpnRandomizer.sh
+
+3.) Test the script once your system so you can see any errors, before running the crontab
+    
+    #./path/to/expressVpnRandomizer.sh
+    
   
-4.) sudo crontab -e   
+4.) Paste the line from the crontab file into your own system's crontab file (must be the root crontab file)  
 
-    #paste the line from the crontab file into your system's crontab file (must be the root crontab file)
+    # sudo crontab -e 
+    
 
 5.) Done! If the crontab line was not edited, you would see your location automatically change starting at the next 10 minute interval of an hour.
 
