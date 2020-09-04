@@ -37,7 +37,7 @@ This mini-program is a script and a crontab command that interacts with the expr
 .
 .
 
-You can of course change the crontab to your an interval that better suites you --> https://www.tutorialspoint.com/unix_commands/crontab.htm
+You can of course change the crontab to a time interval that better suites you --> https://www.tutorialspoint.com/unix_commands/crontab.htm
 
 
 
