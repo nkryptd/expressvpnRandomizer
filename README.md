@@ -29,7 +29,7 @@ This mini-program is simply a bash script and a crontab command that interacts w
 
     $ chmod 700 /path/to/expressVpnRandomizer.sh
 
-3.) Test the script once your system so you can see any errors, before running the crontab
+3.) Test the script once on your system before running the crontab, so you can see any errors if there are any.
     
     $ ./path/to/expressVpnRandomizer.sh
     
