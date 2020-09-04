@@ -1,7 +1,7 @@
 # expressvpnRandomizer
 
 
-This mini-program is a script and a crontab command that interacts with the expressvpn-cli to change your vpn server location at a specified time interval.
+This mini-program is simply a bash script and a crontab command that interacts with the expressvpn-cli to change your vpn server location at a specified time interval.
 
 
 
